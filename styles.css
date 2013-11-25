@@ -1,0 +1,20 @@
+
+input {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('dark-canvas.gif');
+	-moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
